@@ -1,0 +1,9 @@
+Component                         Purpose
+VPC                      Private networking
+Private Subnet           Internal worker communication
+Public VM                API Gateway
+Worker VMs              Run inference services
+Terraform               Infrastructure as Code
+FastAPI                JSON HTTP API
+RPC                    Internal communication
+Security Groups        Restrict public access
