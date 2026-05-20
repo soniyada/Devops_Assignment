@@ -1,0 +1,3 @@
+curl -X POST http://<PUBLIC-IP>/api/infer \
+-H "Content-Type: application/json" \
+-d '{"text":"Hello"}'
