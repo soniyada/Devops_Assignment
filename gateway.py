@@ -12,3 +12,8 @@ def infer(data: dict):
     response = requests.get(WORKER_URL, params={"text": text})
 
     return response.json()
+
+
+RUN
+
+uvicorn gateway:app --host 0.0.0.0 --port 80
