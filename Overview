@@ -1,0 +1,7 @@
+This project deploys a distributed inference system using multiple VMs inside a private subnet.
+
+Each worker communicates internally using RPC, while a public API Gateway exposes inference through a JSON HTΤΡ ΑΡΙ.
+
+Cloud Used: AWS (can also be adapted for GCP)
+
+Infrastructure Provisioning Tool: Terraform
