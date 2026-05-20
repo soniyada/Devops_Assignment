@@ -1,0 +1,13 @@
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/infer")
+def infer(text: str):
+    return {"response": f"Processed: {text}"}
+
+
+Run 
+
+
+uvicorn app:app --host 0.0.0.0 --port 8000
